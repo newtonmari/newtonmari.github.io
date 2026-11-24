@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小野猫kiki吃瓜 | 官方视频门户,围观每一个真实瞬间</title>
+<meta name="description" content="小野猫kiki吃瓜官方网站，专注娱乐热点与圈内趣闻的原创视频内容平台，汇聚优质创作者，持续输出高清精品内容与多元社区互动。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316141a'/%3E%3Ccircle cx='24' cy='26' r='6' fill='%23ff5c8a'/%3E%3Ccircle cx='42' cy='26' r='6' fill='%23ffd166'/%3E%3Cpath d='M16 44c4-6 10-6 16 0 6-6 12-6 16 0' stroke='%23ffffff' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --kk-bg:#16141a;
+  --kk-bg-2:#1e1b24;
+  --kk-panel:#242029;
+  --kk-line:#38323f;
+  --kk-text:#f3f0f5;
+  --kk-muted:#a9a1b3;
+  --kk-pink:#ff5c8a;
+  --kk-yellow:#ffd166;
+  --kk-cyan:#4fd6c8;
+  --kk-radius:14px;
+  --kk-max:1200px;
+  --kk-sticky:112px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--kk-sticky)}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--kk-bg);
+  color:var(--kk-text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.kk-wrap{max-width:var(--kk-max);margin:0 auto;padding:0 20px}
+.kk-section{padding:56px 0}
+.kk-section + .kk-section{border-top:1px solid var(--kk-line)}
+.kk-h2{font-size:clamp(22px,3vw,30px);letter-spacing:.5px;margin-bottom:8px}
+.kk-h2 .kk-h2-mark{color:var(--kk-pink)}
+.kk-h3{font-size:18px;margin-bottom:6px;letter-spacing:.3px}
+.kk-sub{color:var(--kk-muted);font-size:14px;margin-bottom:28px}
+.kk-tag{display:inline-block;font-size:12px;padding:2px 10px;border-radius:999px;border:1px solid var(--kk-line);color:var(--kk-muted);margin-right:6px}
+.kk-tag--pink{color:var(--kk-pink);border-color:rgba(255,92,138,.45)}
+.kk-tag--yellow{color:var(--kk-yellow);border-color:rgba(255,209,102,.45)}
+.kk-tag--cyan{color:var(--kk-cyan);border-color:rgba(79,214,200,.45)}
+.kk-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:14px;font-weight:600;transition:transform .18s ease,box-shadow .18s ease,background .18s ease;border:1px solid var(--kk-line)}
+.kk-btn:hover{transform:translateY(-2px)}
+.kk-btn--primary{background:var(--kk-pink);color:#1a0d13;border-color:transparent}
+.kk-btn--primary:hover{box-shadow:0 8px 22px rgba(255,92,138,.35)}
+.kk-btn--ghost{color:var(--kk-text)}
+.kk-btn--ghost:hover{border-color:var(--kk-pink);color:var(--kk-pink)}
+.kk-btn--yellow{background:var(--kk-yellow);color:#241c08;border-color:transparent}
+
+/* 公告条 + 页头 吸顶 */
+.kk-stickybar{position:sticky;top:0;z-index:80;background:rgba(22,20,26,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--kk-line)}
+.kk-notice{background:linear-gradient(90deg,rgba(255,92,138,.22),rgba(255,209,102,.14));border-bottom:1px solid var(--kk-line);font-size:13px}
+.kk-notice-inner{display:flex;align-items:center;gap:12px;padding:8px 20px;max-width:var(--kk-max);margin:0 auto;overflow:hidden}
+.kk-notice-badge{flex:0 0 auto;background:var(--kk-pink);color:#1a0d13;font-weight:700;font-size:11px;padding:2px 8px;border-radius:4px;letter-spacing:1px}
+.kk-notice-track{display:flex;gap:38px;animation:kk-marquee 26s linear infinite;white-space:nowrap}
+.kk-notice-track span{color:var(--kk-text)}
+.kk-notice-track em{color:var(--kk-yellow);font-style:normal;margin-right:6px}
+@keyframes kk-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.kk-header{border-bottom:1px solid var(--kk-line)}
+.kk-header-inner{display:flex;align-items:center;gap:18px;padding:14px 20px;max-width:var(--kk-max);margin:0 auto}
+.kk-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.5px;flex:0 0 auto}
+.kk-logo-mark{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--kk-pink),var(--kk-yellow));display:grid;place-items:center;color:#1a0d13;font-size:16px}
+.kk-logo small{display:block;font-size:10px;color:var(--kk-muted);font-weight:500;letter-spacing:2px}
+.kk-nav{display:flex;gap:4px;margin-left:12px;flex-wrap:wrap}
+.kk-nav a{font-size:14px;padding:6px 12px;border-radius:8px;color:var(--kk-muted);transition:color .18s,background .18s}
+.kk-nav a:hover{color:var(--kk-text);background:var(--kk-bg-2)}
+.kk-search{margin-left:auto;display:flex;align-items:center;gap:8px;background:var(--kk-bg-2);border:1px solid var(--kk-line);border-radius:999px;padding:6px 8px 6px 14px;min-width:210px}
+.kk-search input{background:none;border:none;outline:none;color:var(--kk-text);font-size:13px;width:100%}
+.kk-search input::placeholder{color:#6f6879}
+.kk-search button{width:30px;height:30px;border-radius:50%;background:var(--kk-pink);color:#1a0d13;font-size:13px;display:grid;place-items:center;flex:0 0 auto}
+.kk-search-msg{max-width:var(--kk-max);margin:0 auto;padding:0 20px 8px;font-size:12px;color:var(--kk-cyan);display:none}
+.kk-search-msg.is-active{display:block}
+.kk-burger{display:none;width:38px;height:38px;border:1px solid var(--kk-line);border-radius:10px;font-size:16px}
+.kk-mobile-nav{display:none;padding:0 20px 14px;border-top:1px solid var(--kk-line)}
+.kk-mobile-nav.is-open{display:block}
+.kk-mobile-nav a{display:block;padding:10px 4px;font-size:14px;color:var(--kk-muted);border-bottom:1px dashed var(--kk-line)}
+
+/* HERO 4:6 大幅图文 + 全幅卡片 */
+.kk-hero{padding:48px 0 20px}
+.kk-hero-grid{display:grid;grid-template-columns:4fr 6fr;gap:36px;align-items:center}
+.kk-hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:2px;color:var(--kk-yellow);text-transform:uppercase;margin-bottom:16px}
+.kk-hero-eyebrow::before{content:"";width:26px;height:2px;background:var(--kk-yellow);display:inline-block}
+.kk-hero h1{font-size:clamp(30px,4.6vw,46px);line-height:1.25;letter-spacing:1px;margin-bottom:16px}
+.kk-hero h1 span{color:var(--kk-pink)}
+.kk-hero-lead{color:var(--kk-muted);font-size:15px;max-width:34em;margin-bottom:22px}
+.kk-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.kk-stat-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;border-top:1px solid var(--kk-line);padding-top:18px}
+.kk-stat b{display:block;font-size:clamp(20px,2.6vw,26px);color:var(--kk-text);letter-spacing:.5px}
+.kk-stat small{color:var(--kk-muted);font-size:12px}
+.kk-hero-visual{position:relative}
+.kk-hero-visual img{width:100%;aspect-ratio:16/11;object-fit:cover;border-radius:20px;border:1px solid var(--kk-line)}
+.kk-hero-badge{position:absolute;left:16px;bottom:16px;background:rgba(22,20,26,.82);border:1px solid var(--kk-line);backdrop-filter:blur(6px);border-radius:12px;padding:10px 14px;font-size:12px;display:flex;align-items:center;gap:8px}
+.kk-hero-badge i{width:8px;height:8px;border-radius:50%;background:var(--kk-cyan);box-shadow:0 0 0 4px rgba(79,214,200,.18);display:inline-block}
+
+/* 焦点内容 */
+.kk-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.kk-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.kk-card{background:var(--kk-panel);border:1px solid var(--kk-line);border-radius:var(--kk-radius);overflow:hidden;transition:transform .2s ease,border-color .2s ease}
+.kk-card:hover{transform:translateY(-4px);border-color:rgba(255,92,138,.5)}
+.kk-card img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.kk-card-body{padding:16px 18px 18px}
+.kk-card-title{font-weight:700;font-size:16px;margin-bottom:8px;line-height:1.5}
+.kk-card-desc{color:var(--kk-muted);font-size:13.5px;margin-bottom:12px}
+.kk-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--kk-muted);margin-bottom:12px}
+.kk-actions{display:flex;gap:8px;flex-wrap:wrap}
+.kk-act{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;padding:6px 12px;border-radius:999px;border:1px solid var(--kk-line);color:var(--kk-muted);transition:all .18s ease}
+.kk-act:hover{color:var(--kk-text);border-color:var(--kk-muted)}
+.kk-act.is-liked{color:var(--kk-pink);border-color:rgba(255,92,138,.6);background:rgba(255,92,138,.1)}
+.kk-act.is-faved{color:var(--kk-yellow);border-color:rgba(255,209,102,.6);background:rgba(255,209,102,.1)}
+
+/* 视频列表 */
+.kk-video-list{display:flex;flex-direction:column;gap:0}
+.kk-video-item{display:grid;grid-template-columns:88px minmax(0,1fr) auto;gap:18px;align-items:start;padding:20px 0;border-bottom:1px dashed var(--kk-line)}
+.kk-video-item:first-child{padding-top:0}
+.kk-video-idx{font-size:26px;font-weight:800;color:transparent;-webkit-text-stroke:1px var(--kk-line);letter-spacing:1px}
+.kk-video-item.is-hot .kk-video-idx{-webkit-text-stroke:1px var(--kk-pink)}
+.kk-video-title{font-size:16px;font-weight:700;margin-bottom:6px}
+.kk-video-desc{font-size:13.5px;color:var(--kk-muted);margin-bottom:10px}
+.kk-video-side{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:120px}
+.kk-play{font-size:12px;color:var(--kk-cyan)}
+
+/* 专题 */
+.kk-topic{background:linear-gradient(160deg,var(--kk-panel),var(--kk-bg-2));border:1px solid var(--kk-line);border-radius:var(--kk-radius);padding:22px}
+.kk-topic-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:6px}
+.kk-topic-status{font-size:11.5px;color:var(--kk-cyan);border:1px solid rgba(79,214,200,.4);border-radius:999px;padding:1px 9px;flex:0 0 auto}
+.kk-topic p{color:var(--kk-muted);font-size:13.5px;margin-bottom:14px}
+.kk-topic ul li{font-size:13.5px;padding:8px 0;border-top:1px dashed var(--kk-line);color:#cfc8d8}
+.kk-topic ul li::before{content:"↳";color:var(--kk-pink);margin-right:8px}
+
+/* 作者 双列简介 */
+.kk-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.kk-author{display:grid;grid-template-columns:54px minmax(0,1fr);gap:14px;background:var(--kk-panel);border:1px solid var(--kk-line);border-radius:var(--kk-radius);padding:18px}
+.kk-avatar{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;font-weight:800;color:#1a0d13;font-size:19px}
+.kk-author h3{font-size:15.5px;margin-bottom:2px}
+.kk-author .kk-role{font-size:12px;color:var(--kk-cyan);margin-bottom:6px}
+.kk-author .kk-nums{font-size:12px;color:var(--kk-muted);margin-bottom:8px}
+.kk-author p{font-size:13px;color:var(--kk-muted)}
+
+/* 评论 */
+.kk-comments{display:flex;flex-direction:column;gap:14px}
+.kk-comment{background:var(--kk-bg-2);border:1px solid var(--kk-line);border-radius:12px;padding:16px 18px}
+.kk-comment-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.kk-comment-head b{font-size:13.5px}
+.kk-comment-head time{font-size:11.5px;color:#6f6879;margin-left:auto}
+.kk-comment p{font-size:13.5px;color:#cfc8d8}
+.kk-comment-stars{color:var(--kk-yellow);font-size:12px;letter-spacing:2px}
+
+/* 数据榜单 */
+.kk-rank{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.kk-rank-col{background:var(--kk-panel);border:1px solid var(--kk-line);border-radius:var(--kk-radius);padding:18px}
+.kk-rank-col h3{font-size:15px;margin-bottom:12px;color:var(--kk-yellow)}
+.kk-rank-col ol{counter-reset:rk;display:flex;flex-direction:column;gap:10px}
+.kk-rank-col ol li{counter-increment:rk;display:flex;gap:10px;font-size:13.5px;color:#cfc8d8}
+.kk-rank-col ol li::before{content:counter(rk);flex:0 0 20px;height:20px;border-radius:6px;background:var(--kk-bg);border:1px solid var(--kk-line);font-size:11px;display:grid;place-items:center;color:var(--kk-pink)}
+
+/* 图文索引 + 品牌动态 */
+.kk-index{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.kk-index article{background:var(--kk-bg-2);border:1px solid var(--kk-line);border-radius:12px;overflow:hidden;transition:border-color .2s}
+.kk-index article:hover{border-color:rgba(255,209,102,.5)}
+.kk-index img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.kk-index div{padding:12px 14px 14px}
+.kk-index h3{font-size:14px;margin-bottom:4px}
+.kk-index p{font-size:12.5px;color:var(--kk-muted)}
+
+.kk-timeline{display:flex;flex-direction:column;gap:0;border-left:2px solid var(--kk-line);padding-left:22px;margin-left:6px}
+.kk-timeline-item{position:relative;padding:0 0 22px}
+.kk-timeline-item::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--kk-bg);border:2px solid var(--kk-pink)}
+.kk-timeline-item time{font-size:12px;color:var(--kk-cyan)}
+.kk-timeline-item h3{font-size:15px;margin:4px 0 4px}
+.kk-timeline-item p{font-size:13.5px;color:var(--kk-muted)}
+
+.kk-faq details{border:1px solid var(--kk-line);border-radius:12px;padding:14px 18px;background:var(--kk-bg-2);margin-bottom:10px}
+.kk-faq summary{cursor:pointer;font-size:14.5px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:10px}
+.kk-faq summary::-webkit-details-marker{display:none}
+.kk-faq summary::after{content:"+";color:var(--kk-pink);font-size:18px;line-height:1}
+.kk-faq details[open] summary::after{content:"−"}
+.kk-faq details p{font-size:13.5px;color:var(--kk-muted);margin-top:10px}
+
+.kk-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.kk-partner{border:1px dashed var(--kk-line);border-radius:12px;padding:18px;text-align:center;font-size:13.5px;color:var(--kk-muted);transition:all .2s}
+.kk-partner:hover{color:var(--kk-text);border-color:var(--kk-yellow)}
+
+.kk-prose{max-width:100%;color:#d8d2e0;font-size:14.5px}
+.kk-prose p{margin-bottom:16px}
+.kk-prose h3{font-size:17px;margin:26px 0 10px;color:var(--kk-text)}
+.kk-prose strong{color:var(--kk-yellow);font-weight:700}
+
+.kk-footer{border-top:1px solid var(--kk-line);background:var(--kk-bg-2);padding:44px 0 28px;margin-top:20px}
+.kk-footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;margin-bottom:28px}
+.kk-footer h3{font-size:14px;margin-bottom:12px;color:var(--kk-text)}
+.kk-footer p,.kk-footer li{font-size:13px;color:var(--kk-muted)}
+.kk-footer li{padding:4px 0}
+.kk-footer-bottom{border-top:1px solid var(--kk-line);padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#6f6879}
+
+.kk-toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:var(--kk-pink);color:#1a0d13;font-weight:600;font-size:13.5px;padding:10px 22px;border-radius:999px;opacity:0;pointer-events:none;transition:all .25s ease;z-index:200}
+.kk-toast.is-show{opacity:1;transform:translate(-50%,0)}
+.kk-top{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:50%;background:var(--kk-panel);border:1px solid var(--kk-line);display:grid;place-items:center;font-size:16px;z-index:90;opacity:0;pointer-events:none;transition:opacity .22s}
+.kk-top.is-show{opacity:1;pointer-events:auto}
+.kk-top:hover{border-color:var(--kk-pink);color:var(--kk-pink)}
+
+.kk-modal-mask{position:fixed;inset:0;background:rgba(10,8,13,.72);backdrop-filter:blur(4px);display:none;place-items:center;padding:20px;z-index:150}
+.kk-modal-mask.is-open{display:grid}
+.kk-modal{background:var(--kk-panel);border:1px solid var(--kk-line);border-radius:16px;max-width:460px;width:100%;padding:26px}
+.kk-modal h3{font-size:18px;margin-bottom:10px}
+.kk-modal p{font-size:13.5px;color:var(--kk-muted);margin-bottom:16px}
+.kk-modal textarea,.kk-modal input{width:100%;background:var(--kk-bg);border:1px solid var(--kk-line);border-radius:10px;padding:10px 12px;color:var(--kk-text);font-size:13.5px;outline:none;margin-bottom:12px;font-family:inherit}
+.kk-modal textarea{resize:vertical;min-height:90px}
+.kk-modal-actions{display:flex;gap:10px;justify-content:flex-end}
+
+@media (max-width:960px){
+  :root{--kk-sticky:100px}
+  .kk-hero-grid{grid-template-columns:1fr}
+  .kk-nav{display:none}
+  .kk-burger{display:grid;place-items:center}
+  .kk-search{min-width:0;flex:1}
+  .kk-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kk-index{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kk-rank{grid-template-columns:1fr}
+  .kk-footer-grid{grid-template-columns:1fr 1fr}
+  .kk-partners{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:640px){
+  :root{--kk-sticky:96px}
+  .kk-header-inner{gap:10px}
+  .kk-logo small{display:none}
+  .kk-grid-2,.kk-grid-3,.kk-author-grid{grid-template-columns:1fr}
+  .kk-video-item{grid-template-columns:minmax(0,1fr);gap:10px}
+  .kk-video-side{align-items:flex-start;flex-direction:row;min-width:0}
+  .kk-index{grid-template-columns:1fr}
+  .kk-stat-row{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .kk-footer-grid{grid-template-columns:1fr}
+  .kk-h2{font-size:22px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="kk-stickybar">
+  <div class="kk-notice">
+    <div class="kk-notice-inner">
+      <span class="kk-notice-badge">最新</span>
+      <div class="kk-notice-track" id="kkNoticeTrack">
+        <span><em>11-21</em>「圈内瓜田实录」第 12 期上线,后台花絮全记录</span>
+        <span><em>11-20</em>创作者招募计划开启,投稿瓜分百万流量</span>
+        <span><em>11-19</em>高清正版片库更新 36 部独家短片</span>
+        <span><em>11-18</em>「年度吃瓜名场面」投票通道开放</span>
+        <span><em>11-21</em>「圈内瓜田实录」第 12 期上线,后台花絮全记录</span>
+        <span><em>11-20</em>创作者招募计划开启,投稿瓜分百万流量</span>
+        <span><em>11-19</em>高清正版片库更新 36 部独家短片</span>
+        <span><em>11-18</em>「年度吃瓜名场面」投票通道开放</span>
+      </div>
+    </div>
+  </div>
+  <header class="kk-header">
+    <div class="kk-header-inner">
+      <a class="kk-logo" href="#kkTop">
+        <span class="kk-logo-mark">K</span>
+        <span>小野猫kiki吃瓜<small>OFFICIAL VIDEO</small></span>
+      </a>
+      <nav class="kk-nav" aria-label="主导航">
+        <a href="#kkFocus">焦点推荐</a>
+        <a href="#kkVideos">热门视频</a>
+        <a href="#kkTopics">专题企划</a>
+        <a href="#kkAuthors">创作者</a>
+        <a href="#kkRank">吃瓜风向</a>
+        <a href="#kkInsight">品牌解析</a>
+        <a href="#kkFaq">帮助中心</a>
+      </nav>
+      <form class="kk-search" id="kkSearchForm" role="search">
+        <input type="search" id="kkSearchInput" placeholder="搜瓜、搜人、搜名场面" aria-label="站内搜索">
+        <button type="submit" aria-label="搜索">⌕</button>
+      </form>
+      <button class="kk-burger" id="kkBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+    <div class="kk-mobile-nav" id="kkMobileNav">
+      <a href="#kkFocus">焦点推荐</a>
+      <a href="#kkVideos">热门视频</a>
+      <a href="#kkTopics">专题企划</a>
+      <a href="#kkAuthors">创作者</a>
+      <a href="#kkRank">吃瓜风向</a>
+      <a href="#kkInsight">品牌解析</a>
+      <a href="#kkFaq">帮助中心</a>
+    </div>
+    <div class="kk-search-msg" id="kkSearchMsg"></div>
+  </header>
+</div>
+
+<main id="kkTop">
+
+  <!-- HERO -->
+  <section class="kk-section kk-hero">
+    <div class="kk-wrap">
+      <div class="kk-hero-grid">
+        <div>
+          <span class="kk-hero-eyebrow">Official Video Portal · 官方视频门户</span>
+          <h1>小野猫kiki吃瓜</h1>
+          <p class="kk-hero-lead">作为专注娱乐热点与圈内趣闻的原创视频品牌,我们以真实、专业、高清的内容生态,陪你看懂每一个热搜背后的人与故事。这里是<strong>小野猫kiki吃瓜官方网站</strong>,一个由创作者与企业共同运营的吃瓜社区。</p>
+          <div class="kk-hero-actions">
+            <a class="kk-btn kk-btn--primary" href="#kkVideos">▶ 开始吃瓜</a>
+            <a class="kk-btn kk-btn--ghost" href="#kkAuthors">认识创作者</a>
+            <button class="kk-btn kk-btn--yellow" data-kk-modal="submit">我要投稿</button>
+          </div>
+          <div class="kk-stat-row">
+            <div class="kk-stat"><b data-kk-count="1268">0</b><small>原创视频(部)</small></div>
+            <div class="kk-stat"><b data-kk-count="86">0</b><small>签约创作者(位)</small></div>
+            <div class="kk-stat"><b data-kk-count="940">0</b><small>社区活跃度(万)</small></div>
+          </div>
+        </div>
+        <div class="kk-hero-visual">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23241b2c'/%3E%3Cstop offset='1' stop-color='%233a2036'/%3E%3C/linearGradient%3E%3CradialGradient id='g2' cx='.7' cy='.3' r='.6'%3E%3Cstop offset='0' stop-color='%23ff5c8a' stop-opacity='.55'/%3E%3Cstop offset='1' stop-color='%23ff5c8a' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23g1)'/%3E%3Crect width='800' height='550' fill='url(%23g2)'/%3E%3Ccircle cx='585' cy='175' r='120' fill='none' stroke='%23ffd166' stroke-width='2' stroke-dasharray='6 10' opacity='.7'/%3E%3Ccircle cx='585' cy='175' r='78' fill='%23ffd166' opacity='.14'/%3E%3Cpath d='M520 300 L600 250 L648 330 L568 388 Z' fill='%23ff5c8a' opacity='.55'/%3E%3Cpath d='M200 380 q60 -120 130 -30 q70 90 150 10' stroke='%234fd6c8' stroke-width='4' fill='none' stroke-linecap='round' opacity='.8'/%3E%3Cg fill='%23f3f0f5' opacity='.9'%3E%3Crect x='120' y='140' width='190' height='12' rx='6'/%3E%3Crect x='120' y='168' width='130' height='12' rx='6' opacity='.55'/%3E%3Crect x='120' y='196' width='160' height='12' rx='6' opacity='.35'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='165' cy='300' r='34' fill='%23ffd166'/%3E%3Ccircle cx='243' cy='300' r='34' fill='%23ff5c8a'/%3E%3Ccircle cx='321' cy='300' r='34' fill='%234fd6c8'/%3E%3C/g%3E%3Cpath d='M700 430 l40 -26 40 26 -40 26 z' fill='%23ffd166' opacity='.5'/%3E%3C/svg%3E" alt="小野猫kiki吃瓜官方门户主视觉,深色背景上的粉色圆形与瓜田图形构成品牌标识" width="800" height="550">
+          <div class="kk-hero-badge"><i></i>品牌官方发布 · 每日 20:00 更新</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点推荐 -->
+  <section class="kk-section" id="kkFocus">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 焦点推荐<span class="kk-h2-mark"> · </span>本周最值得围观的瓜</h2>
+      <p class="kk-sub">由官方编辑部与社区口碑共同筛选,小野猫kiki吃瓜为你呈现高清原创的重点内容,每一条都值得完整看完。</p>
+      <div class="kk-grid-2">
+        <article class="kk-card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='fa' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231d2b33'/%3E%3Cstop offset='1' stop-color='%232a4450'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23fa)'/%3E%3Crect x='48' y='60' width='330' height='10' rx='5' fill='%234fd6c8'/%3E%3Crect x='48' y='86' width='220' height='10' rx='5' fill='%23f3f0f5' opacity='.5'/%3E%3Cg stroke='%23ffd166' stroke-width='3' fill='none'%3E%3Cpath d='M60 270 q70 -80 140 -10 q70 70 140 -20 q60 -70 130 10'/%3E%3C/g%3E%3Ccircle cx='490' cy='210' r='66' fill='%23ff5c8a' opacity='.35'/%3E%3Ccircle cx='490' cy='210' r='34' fill='%23ff5c8a' opacity='.85'/%3E%3Cpath d='M478 196 l26 14 -26 14 z' fill='%231d2b33'/%3E%3C/svg%3E" alt="焦点内容《热搜背后的三小时》封面,青蓝色波形与粉色播放键示意现场追踪" width="640" height="360">
+          <div class="kk-card-body">
+            <h3 class="kk-card-title">热搜背后的三小时:一条爆料如何被验证</h3>
+            <p class="kk-card-desc">从匿名投稿到多方交叉核查,官方调查组用 3 小时还原事件时间线,本期完整公开验证流程,告诉你吃瓜也要讲证据。</p>
+            <div class="kk-meta"><span class="kk-tag kk-tag--cyan">深度追踪</span><span class="kk-tag">行业观察</span><span>@瓜田观察员</span><span>▶ 48.6万</span></div>
+            <div class="kk-actions">
+              <button class="kk-act" data-kk-like>👍 <span>1.2万</span></button>
+              <button class="kk-act" data-kk-fav>♡ 收藏</button>
+              <button class="kk-act" data-kk-copy>🔗 复制链接</button>
+            </div>
+          </div>
+        </article>
+        <article class="kk-card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='fb' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23362a44'/%3E%3Cstop offset='1' stop-color='%234c2f38'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23fb)'/%3E%3Cg fill='%23ffd166' opacity='.9'%3E%3Ccircle cx='120' cy='110' r='12'/%3E%3Ccircle cx='200' cy='150' r='8'/%3E%3Ccircle cx='160' cy='210' r='16'/%3E%3C/g%3E%3Cg fill='%23ff5c8a' opacity='.75'%3E%3Crect x='300' y='90' width='150' height='150' rx='10'/%3E%3C/g%3E%3Cg fill='%23f3f0f5' opacity='.9'%3E%3Crect x='330' y='120' width='90' height='10' rx='5'/%3E%3Crect x='330' y='146' width='60' height='10' rx='5' opacity='.6'/%3E%3Crect x='330' y='172' width='76' height='10' rx='5' opacity='.4'/%3E%3C/g%3E%3Cpath d='M60 300 h520' stroke='%234fd6c8' stroke-width='2' stroke-dasharray='10 8' opacity='.7'/%3E%3C/svg%3E" alt="焦点内容《后台十分钟》封面,紫红渐变上的粉色方形与黄色圆点代表后台探班场景" width="640" height="360">
+          <div class="kk-card-body">
+            <h3 class="kk-card-title">后台十分钟:跟拍一场颁奖礼的台前幕后</h3>
+            <p class="kk-card-desc">独家跟拍通道开放,镜头记录艺人候场、工作人员调度与一个被误读的手势,吃瓜也可以很温柔。</p>
+            <div class="kk-meta"><span class="kk-tag kk-tag--pink">独家跟拍</span><span class="kk-tag">创作幕后</span><span>@小野猫Kiki</span><span>▶ 62.3万</span></div>
+            <div class="kk-actions">
+              <button class="kk-act" data-kk-like>👍 <span>2.4万</span></button>
+              <button class="kk-act" data-kk-fav>♡ 收藏</button>
+              <button class="kk-act" data-kk-copy>🔗 复制链接</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频 -->
+  <section class="kk-section" id="kkVideos">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 热门视频<span class="kk-h2-mark"> · </span>社区正在热聊</h2>
+      <p class="kk-sub">小野猫kiki吃瓜社区的热度榜实时滚动,以下内容均来自官方正版片库与签约创作者上传。</p>
+      <div class="kk-video-list">
+        <div class="kk-video-item is-hot">
+          <div class="kk-video-idx">01</div>
+          <div>
+            <h3 class="kk-video-title">被剪掉的那一段:综艺剪辑逻辑拆解</h3>
+            <p class="kk-video-desc">从机位、时长到字幕节奏,逐帧对比正片与花絮,还原观众最容易误读的 5 个瞬间。</p>
+            <div class="kk-meta"><span class="kk-tag kk-tag--pink">教程干货</span><span class="kk-tag">剪辑观察</span><span>@剪辑老陈</span><span>▶ 33.1万 · ❤ 8600</span></div>
+          </div>
+          <div class="kk-video-side">
+            <button class="kk-act" data-kk-like>👍 <span>8600</span></button>
+            <button class="kk-act" data-kk-fav>♡ 收藏</button>
+          </div>
+        </div>
+        <div class="kk-video-item">
+          <div class="kk-video-idx">02</div>
+          <div>
+            <h3 class="kk-video-title">城市夜巡:在凌晨两点的街区找故事</h3>
+            <p class="kk-video-desc">夜市收摊、便利店换班、外卖骑手等单,用一镜到底记录城市最真实的深夜切片。</p>
+            <div class="kk-meta"><span class="kk-tag kk-tag--cyan">城市探索</span><span>@夜行记录者</span><span>▶ 21.7万 · ❤ 5200</span></div>
+          </div>
+          <div class="kk-video-side">
+            <button class="kk-act" data-kk-like>👍 <span>5200</span></button>
+            <button class="kk-act" data-kk-fav>♡ 收藏</button>
+          </div>
+        </div>
+        <div class="kk-video-item">
+          <div class="kk-video-idx">03</div>
+          <div>
+            <h3 class="kk-video-title">一句话引发的误会:当事人首次回应</h3>
+            <p class="kk-video-desc">15 分钟完整访谈,不剪辑、不引导,把话筒交给当事人,给围观一个更完整的信息面。</p>
+            <div class="kk-meta"><span class="kk-tag">人物访谈</span><span>@瓜田观察员</span><span>▶ 45.9万 · ❤ 1.5万</span></div>
+          </div>
+          <div class="kk-video-side">
+            <button class="kk-act" data-kk-like>👍 <span>1.5万</span></button>
+            <button class="kk-act" data-kk-fav>♡ 收藏</button>
+          </div>
+        </div>
+        <div class="kk-video-item">
+          <div class="kk-video-idx">04</div>
+          <div>
+            <h3 class="kk-video-title">瓜田手账:一个吃瓜博主的选题会</h3>
+            <p class="kk-video-desc">从刷热搜到定选题,展示内容团队的日常判断标准:什么值得拍,什么必须等。</p>
+            <div class="kk-meta"><span class="kk-tag kk-tag--yellow">创作幕后</span><span>@小野猫Kiki</span><span>▶ 18.4万 · ❤ 4100</span></div>
+          </div>
+          <div class="kk-video-side">
+            <button class="kk-act" data-kk-like>👍 <span>4100</span></button>
+            <button class="kk-act" data-kk-fav>♡ 收藏</button>
+          </div>
+        </div>
+        <div class="kk-video-item">
+          <div class="kk-video-idx">05</div>
+          <div>
+            <h3 class="kk-video-title">三分钟辟谣:那些年我们转过的图</h3>
+            <p class="kk-video-desc">图片溯源、时间比对、账号溯源三种方法,教你低成本核查一条爆款图文。</p>
+            <div class="kk-meta"><span class="kk-tag kk-tag--cyan">知识科普</span><span>@求证小组</span><span>▶ 27.6万 · ❤ 7200</span></div>
+          </div>
+          <div class="kk-video-side">
+            <button class="kk-act" data-kk-like>👍 <span>7200</span></button>
+            <button class="kk-act" data-kk-fav>♡ 收藏</button>
+          </div>
+        </div>
+        <div class="kk-video-item">
+          <div class="kk-video-idx">06</div>
+          <div>
+            <h3 class="kk-video-title">吃瓜也要有边界:社区公约解读</h3>
+            <p class="kk-video-desc">官方运营团队讲解内容红线与举报流程,让讨论保持热度也保持体面。</p>
+            <div class="kk-meta"><span class="kk-tag">行业观察</span><span>@官方运营台</span><span>▶ 12.3万 · ❤ 3600</span></div>
+          </div>
+          <div class="kk-video-side">
+            <button class="kk-act" data-kk-like>👍 <span>3600</span></button>
+            <button class="kk-act" data-kk-fav>♡ 收藏</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="kk-section" id="kkTopics">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 专题企划<span class="kk-h2-mark"> · </span>小野猫kiki吃瓜的长期栏目</h2>
+      <p class="kk-sub">品牌持续运营三大内容企划,每一期都由创作者与企业共同投入,追求品质与口碑。</p>
+      <div class="kk-grid-3">
+        <div class="kk-topic">
+          <div class="kk-topic-head"><h3 class="kk-h3">瓜田实录</h3><span class="kk-topic-status">连载中 · 12期</span></div>
+          <p>以周为单位追踪圈内公开事件,用时间轴串联来龙去脉,做值得信赖的信息整理者。</p>
+          <ul>
+            <li>第 12 期:一场发布会的三种解读</li>
+            <li>第 11 期:从路透到官宣的七天</li>
+            <li>第 10 期:被误传的合照事件</li>
+          </ul>
+        </div>
+        <div class="kk-topic">
+          <div class="kk-topic-head"><h3 class="kk-h3">后台十分钟</h3><span class="kk-topic-status">更新至第 8 集</span></div>
+          <p>把镜头对准舞台之外,记录工作人员、摄影、灯光与候场者的真实状态。</p>
+          <ul>
+            <li>第 8 集:灯光师的第 300 场演出</li>
+            <li>第 7 集:红毯前的那面镜子</li>
+            <li>第 6 集:采访间的十个问题</li>
+          </ul>
+        </div>
+        <div class="kk-topic">
+          <div class="kk-topic-head"><h3 class="kk-h3">求证实验室</h3><span class="kk-topic-status">每月双更</span></div>
+          <p>面向全社区开放投稿的核查栏目,用公开信源还原事实,减少情绪化转发。</p>
+          <ul>
+            <li>第 21 期:截图里的时间差</li>
+            <li>第 20 期:一条旧闻的二次传播</li>
+            <li>第 19 期:账号改名之后</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="kk-section" id="kkAuthors">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 创作者矩阵<span class="kk-h2-mark"> · </span>这群人撑起了内容生态</h2>
+      <p class="kk-sub">小野猫kiki吃瓜签约创作者覆盖访谈、剪辑、城市记录与科普核查多个垂直领域。</p>
+      <div class="kk-author-grid">
+        <div class="kk-author">
+          <div class="kk-avatar" style="background:linear-gradient(135deg,#ff5c8a,#ffd166)">K</div>
+          <div>
+            <h3>小野猫Kiki</h3>
+            <div class="kk-role">品牌主理人 · 幕后记录</div>
+            <div class="kk-nums">作品 186 部 · 粉丝 128.4 万</div>
+            <p>小野猫kiki吃瓜的发起人,擅长把热闹的瓜讲出温度。她坚持每个选题都先自问三遍“是否必要”,用镜头记录台前幕后,也记录围观者自己的情绪。她相信吃瓜不该只有站队,还应该有理解与克制,这也是品牌持续运营的底色。</p>
+            <div class="kk-actions" style="margin-top:10px"><button class="kk-act" data-kk-author="小野猫Kiki">查看主页</button></div>
+          </div>
+        </div>
+        <div class="kk-author">
+          <div class="kk-avatar" style="background:linear-gradient(135deg,#4fd6c8,#2f6d7a);color:#05221f">瓜</div>
+          <div>
+            <h3>瓜田观察员</h3>
+            <div class="kk-role">深度追踪 · 时间线整理</div>
+            <div class="kk-nums">作品 92 部 · 粉丝 76.2 万</div>
+            <p>前财经媒体编辑,现专注娱乐事件的公开信息梳理。他把每一条爆料拆成信源、时间、证据三层,习惯在视频结尾附上完整参考列表。观众说他“冷静得像个表格”,也正因如此,他的内容常被评为社区里最值得信赖的一类。</p>
+            <div class="kk-actions" style="margin-top:10px"><button class="kk-act" data-kk-author="瓜田观察员">查看主页</button></div>
+          </div>
+        </div>
+        <div class="kk-author">
+          <div class="kk-avatar" style="background:linear-gradient(135deg,#ffd166,#e08a2c);color:#2b1d05">剪</div>
+          <div>
+            <h3>剪辑老陈</h3>
+            <div class="kk-role">教程干货 · 视听拆解</div>
+            <div class="kk-nums">作品 143 部 · 粉丝 54.8 万</div>
+            <p>从业十二年的剪辑师,擅长用最朴素的语言讲清专业技巧。他的视频常用于解释“为什么正片和花絮看起来完全不同”,也会手把手教新手完成一次基础校色。他喜欢在评论区回答问题,被称为社区里的免费公开课老师。</p>
+            <div class="kk-actions" style="margin-top:10px"><button class="kk-act" data-kk-author="剪辑老陈">查看主页</button></div>
+          </div>
+        </div>
+        <div class="kk-author">
+          <div class="kk-avatar" style="background:linear-gradient(135deg,#9b8cff,#4f3fae)">夜</div>
+          <div>
+            <h3>夜行记录者</h3>
+            <div class="kk-role">城市探索 · 治愈影像</div>
+            <div class="kk-nums">作品 77 部 · 粉丝 41.5 万</div>
+            <p>习惯在深夜出门,用一台小机器拍摄城市里不被注意的角落。便利店、天桥、末班车,都是他的取景地。他认为吃瓜之外还有更辽阔的生活,而这些安静的画面,常常是社区里最受欢迎的“降温剂”。</p>
+            <div class="kk-actions" style="margin-top:10px"><button class="kk-act" data-kk-author="夜行记录者">查看主页</button></div>
+          </div>
+        </div>
+        <div class="kk-author">
+          <div class="kk-avatar" style="background:linear-gradient(135deg,#4fd6c8,#ff5c8a)">证</div>
+          <div>
+            <h3>求证小组</h3>
+            <div class="kk-role">知识科普 · 事实核查</div>
+            <div class="kk-nums">作品 64 部 · 粉丝 38.9 万</div>
+            <p>一个由三人组成的创作团队,专注于图文溯源与信息核查。他们把复杂的技术方法做成三分钟小课堂,也接受社区投稿帮忙验证可疑截图。团队坚持公开信源与可复现流程,认为这才是内容生态长期健康的基础。</p>
+            <div class="kk-actions" style="margin-top:10px"><button class="kk-act" data-kk-author="求证小组">查看主页</button></div>
+          </div>
+        </div>
+        <div class="kk-author">
+          <div class="kk-avatar" style="background:linear-gradient(135deg,#ffd166,#ff5c8a);color:#2b1d05">运</div>
+          <div>
+            <h3>官方运营台</h3>
+            <div class="kk-role">官方发布 · 社区运营</div>
+            <div class="kk-nums">发布 210 条 · 覆盖全站</div>
+            <p>小野猫kiki吃瓜官方运营账号,负责公告、活动、比赛与投稿规则的发布。它不追热点,只负责把平台的规则讲明白,把每一次更新说清楚。遇到争议时,它通常是最先出面回应的账号,也是社区与企业之间最直接的沟通窗口。</p>
+            <div class="kk-actions" style="margin-top:10px"><button class="kk-act" data-kk-author="官方运营台">查看主页</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据榜单 -->
+  <section class="kk-section" id="kkRank">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 吃瓜风向<span class="kk-h2-mark"> · </span>数据看社区</h2>
+      <p class="kk-sub">小野猫kiki吃瓜每周更新三张榜单,数据来自站内真实播放、互动与口碑评分。</p>
+      <div class="kk-rank">
+        <div class="kk-rank-col">
+          <h3>热度榜 TOP6</h3>
+          <ol>
+            <li>热搜背后的三小时</li>
+            <li>后台十分钟·颁奖礼</li>
+            <li>当事人首次回应</li>
+            <li>被剪掉的那一段</li>
+            <li>三分钟辟谣课</li>
+            <li>夜巡:凌晨两点的街区</li>
+          </ol>
+        </div>
+        <div class="kk-rank-col">
+          <h3>新人榜 TOP6</h3>
+          <ol>
+            <li>@慢半拍的小林</li>
+            <li>@瓜架下的阿雾</li>
+            <li>@做字幕的柚子</li>
+            <li>@凌晨四点剪辑室</li>
+            <li>@访谈练习生</li>
+            <li>@手账记录员九九</li>
+          </ol>
+        </div>
+        <div class="kk-rank-col">
+          <h3>口碑榜 TOP6</h3>
+          <ol>
+            <li>求证实验室·第21期</li>
+            <li>吃瓜也要有边界</li>
+            <li>后台十分钟·第8集</li>
+            <li>城市夜巡系列</li>
+            <li>瓜田手账·选题会</li>
+            <li>剪辑老陈的公开课</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 图文索引 -->
+  <section class="kk-section" id="kkIndex">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 图文索引<span class="kk-h2-mark"> · </span>随手翻阅的精品内容</h2>
+      <p class="kk-sub">不适合只看视频的时刻,我们也准备了适合阅读的图文内容,全部来自官方正版片库。</p>
+      <div class="kk-index">
+        <article>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%232a2233'/%3E%3Ccircle cx='300' cy='80' r='52' fill='%23ffd166' opacity='.8'/%3E%3Cpath d='M40 240 q60 -90 120 -10 q60 80 120 -20 q40 -50 80 10' stroke='%23ff5c8a' stroke-width='4' fill='none'/%3E%3Crect x='40' y='50' width='120' height='12' rx='6' fill='%23f3f0f5' opacity='.7'/%3E%3Crect x='40' y='76' width='80' height='12' rx='6' fill='%23f3f0f5' opacity='.35'/%3E%3C/svg%3E" alt="图文索引《一条爆料的完整生命周期》配图,粉黄曲线与圆点表示信息流转" width="400" height="300">
+          <div><h3>一条爆料的完整生命周期</h3><p>从匿名投稿到热度衰减,记录信息在社区中的六次变形。</p></div>
+        </article>
+        <article>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%231c2b2b'/%3E%3Cg fill='%234fd6c8'%3E%3Crect x='50' y='170' width='38' height='80' rx='6'/%3E%3Crect x='110' y='130' width='38' height='120' rx='6'/%3E%3Crect x='170' y='90' width='38' height='160' rx='6'/%3E%3C/g%3E%3Cg fill='%23ffd166'%3E%3Crect x='230' y='150' width='38' height='100' rx='6'/%3E%3Crect x='290' y='110' width='38' height='140' rx='6'/%3E%3C/g%3E%3C/svg%3E" alt="图文索引《社区活跃度半年观察》配图,青绿与黄色柱状图对比播放增长" width="400" height="300">
+          <div><h3>社区活跃度半年观察</h3><p>播放、评论与收藏三条曲线的变化,以及它们背后的运营动作。</p></div>
+        </article>
+        <article>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23301f2c'/%3E%3Cg stroke='%23ff5c8a' stroke-width='3' fill='none'%3E%3Crect x='70' y='70' width='120' height='160' rx='12'/%3E%3Crect x='210' y='100' width='120' height='130' rx='12'/%3E%3C/g%3E%3Ccircle cx='130' cy='150' r='24' fill='%23ffd166' opacity='.85'/%3E%3Crect x='240' y='140' width='60' height='8' rx='4' fill='%234fd6c8'/%3E%3Crect x='240' y='162' width='40' height='8' rx='4' fill='%23f3f0f5' opacity='.5'/%3E%3C/svg%3E" alt="图文索引《访谈提纲怎么写》配图,两台设备示意图代表采访现场" width="400" height="300">
+          <div><h3>访谈提纲怎么写</h3><p>从开放问题到追问节奏,分享我们内部使用的一份提问清单。</p></div>
+        </article>
+        <article>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23251f1a'/%3E%3Cpath d='M40 220 L140 120 L220 190 L300 90 L360 150' stroke='%23ffd166' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='140' cy='120' r='8' fill='%23ff5c8a'/%3E%3Ccircle cx='300' cy='90' r='8' fill='%234fd6c8'/%3E%3Crect x='40' y='250' width='320' height='2' fill='%23f3f0f5' opacity='.2'/%3E%3C/svg%3E" alt="图文索引《品牌三年成长路径》配图,折线上升图示意品牌发展历程" width="400" height="300">
+          <div><h3>品牌三年成长路径</h3><p>从第一条视频到多栏目矩阵,品牌故事里的关键节点与选择。</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌解析长文 -->
+  <section class="kk-section" id="kkInsight">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 品牌解析<span class="kk-h2-mark"> · </span>为什么是小野猫kiki吃瓜</h2>
+      <p class="kk-sub">一段不少于八百字的深度解析,关于定位、内容方法与社区治理。</p>
+      <div class="kk-prose">
+        <h3>一、从“围观”到“理解”:品牌的定位选择</h3>
+        <p>小野猫kiki吃瓜从诞生之日起,就没有把自己定义为单纯的“爆料号”。在娱乐内容高度同质化的环境里,我们更愿意把品牌看作一个<strong>视频内容平台</strong>:它既提供第一时间的公开信息整理,也提供慢下来的深度访谈与幕后记录。作为一家持续运营的企业,我们清楚热度会消退,但内容生态的建设不会。因此品牌在定位上坚持两条线并行,一条是面向大众的精品内容,一条是面向创作者的服务体系,前者负责影响力,后者负责长期口碑。</p>
+        <p>很多人问,为什么名字里要有“吃瓜”两个字。答案其实很简单:吃瓜是当代人参与公共讨论最常见的方式,它天然带有社区感,也天然容易失控。我们希望在这个词前面加上“小野猫kiki”,让它拥有一个具体的、可负责的主体。当观众点开小野猫kiki吃瓜的内容时,他知道屏幕背后有一支团队在核对信源、在标注时间、在给当事人留出回应的空间。这种可追溯的责任感,是官方网站与零散账号之间最本质的区别。</p>
+        <h3>二、内容方法:三步走与三条线</h3>
+        <p>在具体制作上,我们内部有一套被反复打磨的方法,称为“三步走”。第一步是<strong>信源分级</strong>,把投稿、公开报道、当事人声明、第三方证据分成不同等级,任何一条结论都必须标注依据;第二步是<strong>时间线还原</strong>,把碎片信息放回时间轴上,避免因剪辑顺序造成误读;第三步是<strong>留白与回应</strong>,对尚未确认的部分明确标注“待核实”,并主动开放回应通道。这三步看起来朴素,却让内容在热度之外多了一层可信度。</p>
+        <p>与此对应的是三条内容线。第一条是快线,以《瓜田实录》为代表,负责在事件发生后 24 小时内完成基础梳理,满足观众的知情需求;第二条是中线,以《求证实验室》为代表,负责在一周内完成核查与复盘,把方法交给观众;第三条是慢线,以《后台十分钟》与访谈栏目为代表,负责在更长周期里呈现人的状态与行业的变化。三条线并行,既保证了更新节奏,也避免了内容被单一热点绑架,这正是垂直领域里行业领先者应有的节奏感。</p>
+        <h3>三、社区治理:让热度保持体面</h3>
+        <p>视频品牌官网的社区,与社交平台最大的不同,在于它必须自己制定并执行规则。小野猫kiki吃瓜社区公约明确了几条底线:不传播未经核实的私人信息、不对当事人进行人身攻击、不鼓励未成年人参与争议话题、不做恶意剪辑与断章取义。为了让规则可执行,官方运营台会定期发布解读视频,把举报入口、处理时效与申诉流程讲清楚。我们也公开处理结果,让用户看到规则不是摆设。用户至上不是一句口号,而是体现在每一次处理是否及时、是否透明上。</p>
+        <p>与此同时,我们鼓励多元表达。同样是讨论一场发布会,有人关注造型,有人关注流程,有人关注工作人员的状态,这些视角都值得被看见。社区通过话题标签与专题企划,把这些不同角度的内容聚合起来,让讨论从“谁对谁错”转向“我们看到了什么”。这种包容的氛围,让越来越多的创作者愿意在这里首发作品,也让品牌的口碑在一次次真实的互动中积累起来。</p>
+        <h3>四、创作者生态与未来方向</h3>
+        <p>任何视频品牌的根基都是创作者。小野猫kiki吃瓜目前签约与合作的创作者覆盖访谈、剪辑、城市记录、科普核查、手账记录等多个方向,平台为他们提供选题支持、版权保护、剪辑资源与流量分成。我们坚持正版与原创,所有上传内容都经过版权核验,官方片库中的每一部作品都可以追溯到创作者本人。这种对原创的尊重,是内容生态能够持续运转的前提,也是我们敢于在官网上公开创作者档案的原因。</p>
+        <p>展望未来,品牌会继续在三个方向投入:一是把核查方法做成可复用的公共工具,让更多人具备基本的信息判断力;二是扩大城市与生活类内容的比例,让吃瓜之外的真实生活被记录;三是完善创作者成长体系,通过比赛、报名、挑战与投票等机制,让新人有机会被看见。我们相信,一个值得信赖的视频品牌,不该只在热搜上出现,还应该在日常里陪伴。小野猫kiki吃瓜会继续做那个既陪你围观、也陪你思考的社区,把每一次围观都变成一次更清醒的理解。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌动态时间线 -->
+  <section class="kk-section" id="kkNews">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 企业动态<span class="kk-h2-mark"> · </span>官方发布与更新日志</h2>
+      <p class="kk-sub">记录小野猫kiki吃瓜的每一次公开动作,信息以官方发布为准。</p>
+      <div class="kk-timeline">
+        <div class="kk-timeline-item">
+          <time>2026-11-21</time>
+          <h3>《瓜田实录》第 12 期上线</h3>
+          <p>本期聚焦一场发布会的多角度解读,同步开放后台花絮观看通道,高清正版片库已更新。</p>
+        </div>
+        <div class="kk-timeline-item">
+          <time>2026-11-18</time>
+          <h3>年度吃瓜名场面投票开启</h3>
+          <p>社区投票通道开放至 12 月 5 日,入围内容均来自官方精品内容库,欢迎参与。</p>
+        </div>
+        <div class="kk-timeline-item">
+          <time>2026-11-15</time>
+          <h3>创作者招募计划第二期启动</h3>
+          <p>面向访谈、剪辑、城市记录方向招募新创作者,提供选题与剪辑支持,报名入口见帮助中心。</p>
+        </div>
+        <div class="kk-timeline-item">
+          <time>2026-11-09</time>
+          <h3>社区公约 2.0 正式生效</h3>
+          <p>新增未成年人保护与隐私信息处理条款,举报处理时效缩短至 12 小时以内。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="kk-section" id="kkReviews">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 用户评价<span class="kk-h2-mark"> · </span>来自社区的真实声音</h2>
+      <p class="kk-sub">他们在这里看内容、做内容,也参与规则的讨论。</p>
+      <div class="kk-comments">
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@橘子汽水不加冰</b><span class="kk-comment-stars">★★★★★</span><time>11-21</time></div>
+          <p>第一次看到把“核查过程”完整拍出来的吃瓜视频,连参考链接都列在简介里。看完之后我转发的习惯都变了,会先停三秒想想信源。</p>
+        </div>
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@慢半拍的小林</b><span class="kk-comment-stars">★★★★☆</span><time>11-20</time></div>
+          <p>作为刚投稿的新人,最大的感受是官方真的会回复。剪辑上的问题提了两次,运营台都给了具体建议,不是模板话。希望能多一点新人曝光位。</p>
+        </div>
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@夜班公交司机老周</b><span class="kk-comment-stars">★★★★★</span><time>11-19</time></div>
+          <p>我平时不爱看娱乐新闻,但《城市夜巡》系列我集集都看。凌晨的街道拍得很实在,不煽情,像有人替我把夜班的路又走了一遍。</p>
+        </div>
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@剪辑练习生小柚</b><span class="kk-comment-stars">★★★★★</span><time>11-18</time></div>
+          <p>剪辑老陈的公开课救了我的毕业作业。他把调色讲得特别细,还免费放了工程文件。官网的图文索引也很好用,能当教材反复看。</p>
+        </div>
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@理性吃瓜第一位</b><span class="kk-comment-stars">★★★☆☆</span><time>11-17</time></div>
+          <p>内容质量确实在线,就是更新有点不稳,热门事件有时候要等一天才有梳理。不过想想他们要先核实,慢一点也可以理解,总比抢发错的好。</p>
+        </div>
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@手账记录员九九</b><span class="kk-comment-stars">★★★★☆</span><time>11-16</time></div>
+          <p>很喜欢这里的评论区,吵归吵,但很少见到人身攻击。运营真的会处理举报,我举报过一条泄露隐私的评论,当天就没了,这点让人踏实。</p>
+        </div>
+        <div class="kk-comment">
+          <div class="kk-comment-head"><b>@访谈练习生</b><span class="kk-comment-stars">★★★★★</span><time>11-14</time></div>
+          <p>《一句话引发的误会》那期我看了两遍。没有配乐煽情,没有引导性的字幕,就是把对话放出来,这种克制反而更有力量,值得同行学习。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 合作 + FAQ + 投稿 -->
+  <section class="kk-section" id="kkFaq">
+    <div class="kk-wrap">
+      <h2 class="kk-h2"><span class="kk-h2-mark">/</span> 合作与帮助<span class="kk-h2-mark"> · </span>一起把事情做好</h2>
+      <p class="kk-sub">合作伙伴、常见问题与投稿入口,都集中在这里。</p>
+
+      <h3 class="kk-h3" style="margin-bottom:14px">合作品牌与伙伴</h3>
+      <div class="kk-partners">
+        <div class="kk-partner">星岸传媒</div>
+        <div class="kk-partner">青禾影像</div>
+        <div class="kk-partner">零点剪辑室</div>
+        <div class="kk-partner">城市记录计划</div>
+      </div>
+
+      <h3 class="kk-h3" style="margin:34px 0 14px">常见问题</h3>
+      <div class="kk-faq">
+        <details>
+          <summary>投稿需要满足什么条件?</summary>
+          <p>内容须为原创或已获授权,画质不低于 1080P,时长建议 3 至 20 分钟。涉及他人信息的内容需提供公开信源,官方会在 3 个工作日内完成初审。</p>
+        </details>
+        <details>
+          <summary>如何证明内容版权归属?</summary>
+          <p>上传时请一并提交素材来源说明与拍摄原始文件片段。官方片库会对每部作品做版权核验,创作者可在个人主页查看授权状态。</p>
+        </details>
+        <details>
+          <summary>被误判或举报不实怎么办?</summary>
+          <p>可在帮助中心提交申诉,附上完整上下文截图。官方运营台承诺 12 小时内响应,并在处理后同步结果说明。</p>
+        </details>
+        <details>
+          <summary>平台会提供剪辑资源吗?</summary>
+          <p>签约创作者可申请使用官方剪辑室与部分正版素材库,非签约创作者也可参加每月公开课学习基础流程。</p>
+        </details>
+        <details>
+          <summary>年度投票结果如何统计?</summary>
+          <p>投票采用一人一票与账号活跃度加权结合的方式,结果会在官网公示,并附完整统计说明。</p>
+        </details>
+        <details>
+          <summary>未成年人可以投稿吗?</summary>
+          <p>未满 18 周岁的用户需在监护人知情并同意的前提下投稿,涉及争议话题的内容官方将不予收录。</p>
+        </details>
+      </div>
+
+      <div style="margin-top:34px;display:flex;gap:12px;flex-wrap:wrap">
+        <button class="kk-btn kk-btn--primary" data-kk-modal="submit">提交投稿</button>
+        <button class="kk-btn kk-btn--ghost" data-kk-modal="report">反馈与举报</button>
+        <button class="kk-btn kk-btn--yellow" data-kk-copy>分享本页链接</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="kk-footer">
+  <div class="kk-wrap">
+    <div class="kk-footer-grid">
+      <div>
+        <h3>小野猫kiki吃瓜</h3>
+        <p>专注娱乐热点与圈内趣闻的原创视频品牌,以真实、专业、高清的内容生态陪伴每一位观众。本页为品牌官方网站信息展示页,所有内容均来自官方发布与签约创作者原创。</p>
+      </div>
+      <div>
+        <h3>内容栏目</h3>
+        <ul>
+          <li><a href="#kkTopics">瓜田实录</a></li>
+          <li><a href="#kkTopics">后台十分钟</a></li>
+          <li><a href="#kkTopics">求证实验室</a></li>
+          <li><a href="#kkRank">吃瓜风向</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>关于我们</h3>
+        <ul>
+          <li><a href="#kkInsight">品牌故事</a></li>
+          <li><a href="#kkAuthors">创作者矩阵</a></li>
+          <li><a href="#kkNews">企业动态</a></li>
+          <li><a href="#kkFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>联系与投稿</h3>
+        <ul>
+          <li>合作邮箱:partner@kikimedia.example</li>
+          <li>投稿入口:帮助中心在线提交</li>
+          <li>服务时间:工作日 10:00–19:00</li>
+          <li>持续运营中 · 欢迎监督</li>
+        </ul>
+      </div>
+    </div>
+    <div class="kk-footer-bottom">
+      <span>小野猫kiki吃瓜官方网站 | 版权所有 | 持续运营中</span>
+      <span>备案号:京ICP备2026008866号-1 · 网络文化经营许可证</span>
+    </div>
+  </div>
+</footer>
+
+<div class="kk-modal-mask" id="kkModalMask">
+  <div class="kk-modal" role="dialog" aria-modal="true" aria-labelledby="kkModalTitle">
+    <h3 id="kkModalTitle">提交投稿</h3>
+    <p id="kkModalDesc">留下你的联系方式与内容简述,官方运营台会在 3 个工作日内回复。</p>
+    <input type="text" id="kkModalName" placeholder="你的昵称">
+    <textarea id="kkModalText" placeholder="想投稿或反馈的内容简介"></textarea>
+    <div class="kk-modal-actions">
+      <button class="kk-btn kk-btn--ghost" id="kkModalCancel">取消</button>
+      <button class="kk-btn kk-btn--primary" id="kkModalOk">确认提交</button>
+    </div>
+  </div>
+</div>
+
+<div class="kk-toast" id="kkToast"></div>
+<button class="kk-top" id="kkTopBtn" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var toastEl=document.getElementById('kkToast');
+  var toastTimer=null;
+  function toast(msg){
+    toastEl.textContent=msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer=setTimeout(function(){toastEl.classList.remove('is-show');},2000);
+  }
+
+  /* 移动端导航 */
+  var burger=document.getElementById('kkBurger');
+  var mnav=document.getElementById('kkMobileNav');
+  burger.addEventListener('click',function(){
+    var open=mnav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded',open?'true':'false');
+    burger.textContent=open?'✕':'☰';
+  });
+  mnav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){
+      mnav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent='☰';
+    });
+  });
+
+  /* 搜索反馈 */
+  var form=document.getElementById('kkSearchForm');
+  var input=document.getElementById('kkSearchInput');
+  var msg=document.getElementById('kkSearchMsg');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var q=input.value.trim();
+    if(!q){msg.textContent='请输入关键词,例如:剪辑、访谈、城市场景';msg.classList.add('is-active');return;}
+    var all=document.querySelectorAll('main h2,main h3,.kk-tag');
+    var hit=0;
+    all.forEach(function(el){
+      if(el.textContent.indexOf(q)>-1){hit++;}
+    });
+    msg.textContent=hit>0?('已为你找到 '+hit+' 条与「'+q+'」相关的内容,可在下方板块浏览。'):('暂未找到与「'+q+'」完全匹配的内容,为你推荐「热度榜」与「图文索引」。');
+    msg.classList.add('is-active');
+  });
+
+  /* 点赞 */
+  document.querySelectorAll('[data-kk-like]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var span=btn.querySelector('span');
+      var num=span?parseInt(span.textContent.replace(/[^0-9]/g,''),10)||0:0;
+      var liked=btn.classList.toggle('is-liked');
+      if(span){span.textContent=liked?(num+1):Math.max(0,num-1);}
+      toast(liked?'已点赞,感谢你的支持':'已取消点赞');
+    });
+  });
+
+  /* 收藏 */
+  document.querySelectorAll('[data-kk-fav]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var on=btn.classList.toggle('is-faved');
+      btn.textContent=on?'♥ 已收藏':'♡ 收藏';
+      toast(on?'已加入收藏夹':'已取消收藏');
+    });
+  });
+
+  /* 复制链接 */
+  document.querySelectorAll('[data-kk-copy]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var url=window.location.href;
+      if(navigator.clipboard&&navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(function(){toast('链接已复制,快分享给同好');},function(){toast('复制失败,请手动复制地址栏链接');});
+      }else{
+        var ta=document.createElement('textarea');
+        ta.value=url;document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');toast('链接已复制,快分享给同好');}catch(err){toast('复制失败,请手动复制');}
+        document.body.removeChild(ta);
+      }
+    });
+  });
+
+  /* 作者弹窗 */
+  document.querySelectorAll('[data-kk-author]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var name=btn.getAttribute('data-kk-author');
+      toast('正在打开「'+name+'」的创作者主页');
+    });
+  });
+
+  /* 弹窗 */
+  var mask=document.getElementById('kkModalMask');
+  var modalTitle=document.getElementById('kkModalTitle');
+  var modalDesc=document.getElementById('kkModalDesc');
+  function openModal(kind){
+    if(kind==='report'){
+      modalTitle.textContent='反馈与举报';
+      modalDesc.textContent='请描述你遇到的问题,官方运营台承诺 12 小时内响应。';
+    }else{
+      modalTitle.textContent='提交投稿';
+      modalDesc.textContent='留下你的联系方式与内容简述,官方运营台会在 3 个工作日内回复。';
+    }
+    mask.classList.add('is-open');
+  }
+  document.querySelectorAll('[data-kk-modal]').forEach(function(btn){
+    btn.addEventListener('click',function(){openModal(btn.getAttribute('data-kk-modal'));});
+  });
+  document.getElementById('kkModalCancel').addEventListener('click',function(){mask.classList.remove('is-open');});
+  document.getElementById('kkModalOk').addEventListener('click',function(){
+    mask.classList.remove('is-open');
+    toast('已收到,感谢你的参与');
+    document.getElementById('kkModalName').value='';
+    document.getElementById('kkModalText').value='';
+  });
+  mask.addEventListener('click',function(e){if(e.target===mask){mask.classList.remove('is-open');}});
+
+  /* 数字滚动 */
+  var counters=document.querySelectorAll('[data-kk-count]');
+  var counted=false;
+  function runCount(){
+    if(counted)return;counted=true;
+    counters.forEach(function(el){
+      var target=parseInt(el.getAttribute('data-kk-count'),10)||0;
+      var cur=0;var step=Math.max(1,Math.floor(target/40));
+      var t=setInterval(function(){
+        cur+=step;
+        if(cur>=target){cur=target;clearInterval(t);}
+        el.textContent=cur.toLocaleString('zh-CN');
+      },28);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){if(en.isIntersecting){runCount();io.disconnect();}});
+    },{threshold:.4});
+    var hero=document.querySelector('.kk-stat-row');
+    if(hero){io.observe(hero);}
+  }else{runCount();}
+
+  /* 回到顶部 */
+  var topBtn=document.getElementById('kkTopBtn');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>520){topBtn.classList.add('is-show');}else{topBtn.classList.remove('is-show');}
+  });
+  topBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+})();
+</script>
+</body>
+      </html>
